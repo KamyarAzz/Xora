@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-blue: rgb(60, 82, 217);
+  --main-text: rgb(234, 237, 255);
+  --text-lime: rgb(200, 234, 128);
+  --light-blue: #2ef2ff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(196 203 245);
+  background-color: rgb(8 13 39);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  cursor: grab;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-blue);
+  border-radius: 20px;
+  cursor: grab;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-blue);
+  cursor: grab;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--main-blue);
+  border-radius: 20px;
+  cursor: grab;
+}
